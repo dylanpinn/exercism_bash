@@ -3,8 +3,8 @@
 # Run all tests
 
 main () {
-	(cd hello-world; bats hello_world_test.sh)
-	(cd reverse-string; bats reverse_string_test.sh)
+  (cd hello-world; bats hello_world_test.sh)
+  (cd reverse-string; bats reverse_string_test.sh)
 }
 
 main "$@"
