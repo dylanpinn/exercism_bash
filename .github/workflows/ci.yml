@@ -10,4 +10,5 @@ jobs:
     - name: Install bats
       run: git clone --depth 1 https://github.com/sstephenson/bats.git
     - name: Run tests
-      run: PATH="./bats/bin:$PATH" make test
+      run: PATH="./bats/bin:$PATH" echo $PATH; PATH="./bats/bin:$PATH" make test
+      # run: PATH="./bats/bin:$PATH" make test
